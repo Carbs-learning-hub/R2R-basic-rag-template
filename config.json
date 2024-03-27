@@ -9,7 +9,7 @@
     "provider": "deepeval",
     "frequency": 1.0
   },
-  "ingestion":{
+  "ingestion": {
     "provider": "local",
     "text_splitter": {
       "type": "recursive_character",
@@ -18,7 +18,8 @@
     }
   },
   "language_model": {
-    "provider": "litellm"
+    "provider": "litellm",
+    "model": "claude-3-opus-20240229"
   },
   "logging_database": {
     "provider": "sciphi"
@@ -28,5 +29,5 @@
   },
   "app": {
     "max_logs": 100
-  }  
+  }
 }
